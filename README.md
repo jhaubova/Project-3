@@ -11,8 +11,9 @@ Aby bylo možné parsovat odpovědi z HTTP dotazů, bylo potřeba nainstalovat p
 
 #Spuštění skriptu "Výsledky hlasování pro okres Mladá Boleslav"
 Uživatel spustí skript přes 2 argumenty, 1) příkaz 'python3 main.py "URL" a 2) "název souboru.csv"', kde 'URL' je adresa územního celku a 'název souboru.csv' je název CSV souboru, do kterého se mají uložit výsledky voleb.
-Tedy konkrétně při spuštění příkazu 'python3 main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2107" a "volby_mlada_boleslav.csv"' se uživateli uloží výsledky voleb do souboru 'volby_mlada_boleslav.csv'. 
+Tedy konkrétně při spuštění příkazu 'python3 main.py "https://volby.cz/pls/ps2017nss/ps31?xjazyk=CZ&xkraj=2&xnumnuts=2107" a "volby_mlada_boleslav.csv"' se uživateli uloží výsledky voleb do souboru 'volby_mlada_boleslav.csv'. 
 Při průběhu stahování senejprve stahujidata z vybraného url a ukládají se do souboru csv, následně se ukončuje scraper.
 
 #Příklad výsledku
-Příklad výsledného zápisu vypadá následovně: 535427,Bakov nad Jizerou,3922,2551,2539,285,3,3,204,1,179,153,27,32,36,2,1,252,2,2,113,864,1,8,42,2,18,4,6,295,4.
+code,location,registered,envelopes,ODS
+35443,Bělá pod Bezdězem,3805,2219,2204
